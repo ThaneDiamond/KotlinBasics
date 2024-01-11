@@ -1,0 +1,11 @@
+package com.example.kotlinbasics
+
+fun main(){
+    println("Please enter a number")
+
+
+    val inputString = readln().toInt()
+    val multiplier = 5
+
+    println(inputString*multiplier)
+}
