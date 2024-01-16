@@ -2,8 +2,23 @@ package com.example.kotlinbasics
 
 
 fun main(){
+    //val shoppingList = listOf("CPU","GPU", "Mobo" )
 
-    val myChar = '#'
+    val shoppingList = mutableListOf<String>("CPU","GPU", "Mobo" )
+
+    shoppingList.add("SSD")
+    shoppingList.remove("SSD")
+    shoppingList.add("NVME")
+
+
+}
+
+/*var Daisy =Dog("Daisy", "Wors", 3)
+
+println(Daisy)
+println("Daisy is a ${Daisy.breed} and is ${Daisy.age} years old ")*/
+
+   /* val myChar = '#'
     val myText = "###"
     var myName = "Thane"
 
@@ -24,7 +39,7 @@ fun main(){
         println("not quite right")
     }
 
-
+*/
 
 
 /*
@@ -41,4 +56,3 @@ fun main(){
     println("Hello World! $Number1 $String1")
     String1 = "too"
     println("to changed to $String1")*/
-}
